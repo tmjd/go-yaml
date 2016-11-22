@@ -367,7 +367,7 @@ func (e *encoder) floatv(tag string, in reflect.Value) {
 		precision = 32
 	}
 
-	s := strconv.FormatFloat(in.Float(), 'g', -1, precision)
+	s := strconv.FormatFloat(float64(in.Float()), 'g', -1, precision)
 	switch s {
 	case "+Inf":
 		s = ".inf"
