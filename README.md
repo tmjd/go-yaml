@@ -1,4 +1,4 @@
-[![Build Status](https://semaphoreci.com/api/v1/calico/go-yaml-3/branches/calico/shields_badge.svg)](https://semaphoreci.com/calico/go-yaml-3)
+[![Build Status](https://semaphoreci.com/api/v1/calico/go-yaml/branches/calico/badge.svg)](https://semaphoreci.com/calico/go-yaml)
 
 # YAML support for the Go language
 
